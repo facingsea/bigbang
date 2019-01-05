@@ -3,7 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>BigBang.VIP</title>
+    <link rel="stylesheet" href="./images/iconfont.css">
     <style>
+        @font-face {
+            font-family: 'iconfont';
+            src: url('./images/iconfont.eot');
+            src: url('./images/iconfont.eot?#iefix') format('embedded-opentype'),
+                url('./images/iconfont.woff2') format('woff2'),
+                url('./images/iconfont.woff') format('woff'),
+                url('./images/iconfont.ttf') format('truetype'),
+                url('./images/iconfont.svg#iconfont') format('svg');
+        }
+
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-size: 16px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
         body{
             font-family: "Source Code Pro", "Courier New", Consolas, "DejaVu Sans Mono";
             width: 100%;
@@ -38,6 +57,17 @@
             text-align: center;
             font-size: 1.2em;
         }
+        .subtitle .iconfont {
+            font-size: 1.2em;
+        }
+
+        .subtitle a:link{ color:#F00}
+        .subtitle a:hover{ 
+            color:#000;
+        }
+        .subtitle a:active{ color:#03F}
+        .subtitle a:visited{ color:#F00}
+
         .title-container:after {
             display:inline-block;
             width:0;
@@ -81,8 +111,9 @@
     <div class="top" id="top">
         <div class="title-container">
             <div class="title">Welcome to BigBang.VIP</div>
-            <div class="subtitle">Now, this domain is for sale in Aliyun</div>
+            <div class="subtitle">Now, this domain is for sale in Aliyun. <a href="http://t.cn/EGx6Dkw" target="_blank" alt="GO"><span class="iconfont">&#xe617;</span></a></div>
         </div>
+        <!-- <a href="http://t.cn/EGx6Dkw">GO</a> -->
     </div>
 
     <div class="bottom" id="bottom">

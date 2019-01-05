@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="chakangengduo" unicode="&#58903;" d="M954.002205 417.305402 499.581036 630.121279l0-107.254686L828.119074 371.016538l-328.538037-152.414553 0-106.125689 454.421169 211.68688c0 0 13.54796 14.112459 12.983462 46.853363C965.85667 409.402426 954.002205 417.305402 954.002205 417.305402zM529.499449 417.305402 75.642778 630.121279l0-107.254686L404.180816 371.016538l-328.538037-152.414553 0-106.125689 454.421169 211.68688c0 0 13.54796 14.112459 12.983462 46.853363C541.353914 409.402426 529.499449 417.305402 529.499449 417.305402z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
