@@ -17,14 +17,26 @@
             color: white;
         }
         .title-container{
-            /*padding-top: 30px;*/
+            padding-top: 50px;
             width: 100%;
             height: 100%;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: wrap;
         }
         .title{
+            position: absolute;
+            top: 10%;
+            flex: 0 1 100%;
             font-size: 2.5em;
             font-weight: bold;
+            text-align: center;
+        }
+        .subtitle {
+            flex: 0 1 100%;
+            text-align: center;
+            font-size: 1.2em;
         }
         .title-container:after {
             display:inline-block;
@@ -68,7 +80,8 @@
 <body onresize="resetHeight()">
     <div class="top" id="top">
         <div class="title-container">
-            <span class="title">Welcome to BigBang.VIP</span>
+            <div class="title">Welcome to BigBang.VIP</div>
+            <div class="subtitle">Now, this domain is for sale in Aliyun</div>
         </div>
     </div>
 
@@ -103,6 +116,22 @@
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
     <script id="dsq-count-scr" src="//bigbangvip.disqus.com/count.js" async></script>
+
+    <div style="margin-bottom: 20px; text-align: center; font-size: 14px;font-family: 'YaHei Consolas Hybrid'">
+        <span id="busuanzi_container_site_pv">
+            Total VIPs: <span id="busuanzi_value_site_pv"></span>
+        </span>
+    </div>
+
+    <script>
+        function resetHeight(){
+            var total = document.documentElement.clientHeight;
+            var colHeight = total / 2;
+            document.getElementById("top").style.height=colHeight+"px";
+            document.getElementById("bottom").style.height=colHeight * 0.3 +"px";
+        }
+        window.onload = resetHeight();
+    </script>
 
     <script>
         var _hmt = _hmt || [];
